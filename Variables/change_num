@@ -1,0 +1,15 @@
+int i = 20;
+i = 21;
+ 
+or
+ 
+int i = 20;
+int j = 21;
+i = j;
+ 
+or
+ 
+int i = 20;
+int j;
+j = i;
+printfs("%d", j);

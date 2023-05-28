@@ -1,0 +1,70 @@
+
+ARRAYS 
+====================
+arrays are used to assign a variable to multiple values using [ ]
+element of arrays starts with 0. as demonstrated below
+#include <stdio.h>
+/*
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+       int j [] = {2, 4, 6, 8, 10};
+       {
+       printf("%d", j[0]);
+       }
+       return (0);
+}
+you can assign a new value to elements by declaring them as demonstrated below
+#include <stdio.h>
+/*
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+       int j [] = {2, 4, 6, 8, 10};
+       j [1] = 8;
+       {
+       printf("%d", j[1]);
+       }
+       return (0);
+}
+you can assign a variable to multiple values and printfs all the values using 
+the for loops as demonstrated below
+#include <stdio.h>
+/*
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+       int f [] = {2, 4, 6, 8, 10};
+       int j;
+       for (j = 0; j < 5; j++)
+       {
+               printf("%d\n", f[j]);
+       }
+       return (0);
+}
+
+how to printf a sentence with quotes as demonstrated below
+#include <stdio.h>
+/**
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ * Return - always 0
+ */
+int main(void)
+{
+        char m[] = "when i am \"45\" i would have accomplished alot";
+        {
+                printf("%s\n", m);
+        }
+        return (0);
+}

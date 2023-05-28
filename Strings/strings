@@ -1,0 +1,140 @@
+
+STRINGS
+======================
+u can concatenate or store result of one string in another by using the sting header
+and %s identifier as demonstrated below
+#include <stdio.h>
+#include <string.h>
+/**
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+        char j [10] = "Hi ";
+        char m [ ] = "Dear";
+        strcat(j, m);
+        printf("%s\n", j);
+        return (0);
+}
+
+how to create and printf out two places j & m in memory & 
+copy the text "Hi " stored in j into m using de strcpy function as demonstrated below
+#include <stdio.h>
+#include <string.h>
+/**
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+        char j [10] = "Hi ";
+        char m [10 ];
+        strcpy(m, j);
+        printf("%s\n", m);
+        return (0);
+}
+
+how to compare words using the strcmp function, If the result is 0, 
+it means the words are the same. If the result is a negative number, 
+it means the first word comes before the second word in alphabetical order.
+If the result is a positive number, it means the first word comes after the 
+second word in alphabetical order; as demonstrated below
+#include <stdio.h>
+#include <string.h>
+/**
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+        char j [ ] = "Hi ";
+        char m [ ] = "H";
+        printf("%d\n", strcmp(j, m));
+        return (0);
+}
+
+How to use scanf for reading from and writing integers to the console.
+#include <stdio.h>
+/**
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+        int j;
+        printf("Type a number and press enter: \n");
+        scanf("%d", &j);
+        printf("Your number is: %d", j);
+        return (0);
+}
+
+how to print the memory address of a variable using the %p specifier is demonstrared
+below
+#include <stdio.h>
+/**
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+        int j = 10;
+        printf("%p", &j);
+        return (0);
+}
+
+How to use fgets for reading from and writing characters to the console.
+#include <stdio.h>
+/**
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+        char j[10];
+        printf("type your name and press enter: \n");
+        fgets(j, sizeof(j), stdin);
+        printf("Im %s, j);
+        return (0);
+}
+
+How to use scanf for reading from and writing characters to the console.
+#include <stdio.h>
+/**
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+        char j[10];
+        printf(type your name and press enter: n);
+        scanf(%s, j);
+        printf(Im %s", j);
+        return (0);
+}
+
+How to use scanf for reading from and writing a character and an integer
+to the console.
+#include <stdio.h>
+/**
+ * main - Entry point
+ * description - practice
+ * int main(void) - printfs code
+ */
+int main(void)
+{
+        int m;
+        char j;
+        printf("type a number and character and press enter: \n");
+        scanf("%d %c", &m, &j);
+        printf("its either %dn, m);
+        printf(its either %c\n", j);
+        return (0);
+}

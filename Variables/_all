@@ -1,0 +1,1 @@
+ printf("i am %d, my name ends with %c and my account is %f", i, s, k);

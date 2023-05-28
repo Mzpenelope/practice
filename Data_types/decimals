@@ -1,0 +1,3 @@
+you can use float or double
+float is "%f" and double is "%lf" in using printf
+printf("%.1f", j); or printf("%.1lf", j) specify num of decimal points
