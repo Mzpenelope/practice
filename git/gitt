@@ -1,4 +1,3 @@
-anged files in the working directory: git status
 Change to tracked files: git diff
 Add all changes to your next commit: git add
 Add selected changes into your next commit: git add -p
