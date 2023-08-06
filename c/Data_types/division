@@ -1,3 +1,0 @@
-use the below code to printf division
-float sum = (float) 6 / 3;
-printf("%f", sum);

@@ -1,2 +1,0 @@
-int myAge = 20; char myAim = A; float myScore = 161.1;
-print ("%d\n%f\n%c", myAge, myScore, myAim);

@@ -1,3 +1,0 @@
-int j = 20;
-printf("%d", j);
-printf("I am %d", j)

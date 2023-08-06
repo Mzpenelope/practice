@@ -1,2 +1,0 @@
-char f = m;
-printf("%c\n", f);
